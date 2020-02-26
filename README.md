@@ -1,2 +1,1 @@
-# CNN
-Image Classification using CNN
+Built a model for image classification using CNN from scratch i.e. without using any available library. 12 Layer model was created followed by cross entropy loss for SoftMax regression. Model was trained on Intel dataset, initially the accuracy was 56% for train and 48% for test. This was further improved by various optimization techniques, starting with tickling hyperparameters but didn’t get any considerable improvement in accuracy, followed by L2 regularization along with HE initialization which successfully boost the accuracy of model with 91% on training data and 89% on test data. 
